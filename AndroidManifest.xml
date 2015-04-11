@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.ktrjack.milkmemo"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+        
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+		<activity android:name="DateTimePickerDialog"></activity>
+		<activity android:name="DateTimeDialogFragment"></activity>
+		<activity android:name="DelDialogFragment"></activity>	
+		<activity android:name="TabMilkButton"></activity>
+		<activity android:name="TabHistory"></activity>
+		<activity android:name="SettingMenuList"></activity>
+		<activity android:name="AddButton"></activity>
+		<activity android:name="DelButton"></activity>
+		<activity android:name="AddButton"></activity>
+        <activity android:name="MilkMemo"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

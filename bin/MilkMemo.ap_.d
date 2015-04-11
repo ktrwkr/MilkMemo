@@ -1,0 +1,27 @@
+C:\android_work\MilkMemo\bin\MilkMemo.ap_ \
+ : C:\android_work\MilkMemo\res\drawable-hdpi\ic_launcher.png \
+C:\android_work\MilkMemo\res\drawable-hdpi\ic_launcher_bak.png \
+C:\android_work\MilkMemo\res\drawable-ldpi\ic_launcher.png \
+C:\android_work\MilkMemo\res\drawable-ldpi\ic_launcher_bak.png \
+C:\android_work\MilkMemo\res\drawable-mdpi\ic_launcher.png \
+C:\android_work\MilkMemo\res\drawable-mdpi\ic_launcher_bak.png \
+C:\android_work\MilkMemo\res\layout\add_button_main.xml \
+C:\android_work\MilkMemo\res\layout\date_time_picker.xml \
+C:\android_work\MilkMemo\res\layout\date_time_picker_bak.xml \
+C:\android_work\MilkMemo\res\layout\del_button_main.xml \
+C:\android_work\MilkMemo\res\layout\frag_milk_button.xml \
+C:\android_work\MilkMemo\res\layout\frag_milk_unchi_hist.xml \
+C:\android_work\MilkMemo\res\layout\main.xml \
+C:\android_work\MilkMemo\res\layout\milkmain.xml \
+C:\android_work\MilkMemo\res\layout\setting_list_main.xml \
+C:\android_work\MilkMemo\res\layout\weight_hist_list.xml \
+C:\android_work\MilkMemo\res\menu\activity_milk_memo.xml \
+C:\android_work\MilkMemo\res\menu\activity_milk_memo_bak20140325.xml \
+C:\android_work\MilkMemo\res\values\strings.xml \
+C:\android_work\MilkMemo\bin\res\drawable-hdpi\ic_launcher.png \
+C:\android_work\MilkMemo\bin\res\drawable-hdpi\ic_launcher_bak.png \
+C:\android_work\MilkMemo\bin\res\drawable-ldpi\ic_launcher.png \
+C:\android_work\MilkMemo\bin\res\drawable-ldpi\ic_launcher_bak.png \
+C:\android_work\MilkMemo\bin\res\drawable-mdpi\ic_launcher.png \
+C:\android_work\MilkMemo\bin\res\drawable-mdpi\ic_launcher_bak.png \
+C:\android_work\MilkMemo\bin\AndroidManifest.xml \

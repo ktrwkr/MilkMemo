@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_add_button"
+        android:title="@string/menu_add_button"
+        android:orderInCategory="100"
+	android:showAsAction="never" />
+    <item android:id="@+id/menu_del_button"
+        android:title="@string/menu_del_button"
+        android:orderInCategory="100"
+	android:showAsAction="never" />
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

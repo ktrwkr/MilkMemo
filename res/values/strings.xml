@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MilkMemo</string>
+    <string name="title_section1">Milk and Unchi</string>
+    <string name="title_section2">History</string>
+    <string name="btn_add_milk">ミルク</string>
+    <string name="btn_add_unchi">うんち</string>
+    <string name="btn_add_water">バケツ水交換</string>
+    <string name="btn_add_rice">お米</string>
+    <string name="btn_add_button">ボタンを追加する</string>
+    <string name="menu_add_button">ボタンの追加</string>
+    <string name="menu_del_button">ボタンの削除</string>
+    <string name="menu_settings">その他設定</string>
+    <string name="list_history">記録</string>
+    <string name="alrt_title">確認！</string>
+    <string name="alrt_message">このデータを削除します。よろしいですか？</string>
+    <string name="alrt_message_add_btn">新規のボタンを追加します。よろしいですか？</string>
+    <string name="label_add_button">新規ボタン名：</string>
+</resources>

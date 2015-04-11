@@ -1,0 +1,61 @@
+package com.ktrjack.milkmemo;
+
+import android.app.*;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.*;
+import android.widget.AdapterView.*;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.util.Log;
+import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.os.Bundle;
+import android.widget.Toast;
+
+public class SettingMenuList extends Activity{
+
+	@Override
+	public void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
+		
+		setContentView(R.layout.setting_list_main);
+
+		String[] listItems = {"履歴のバックアップ","履歴バックアップからの復元","履歴の全削除"};
+
+		ListView listView = (ListView) findViewById(R.id.settingListView);
+
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, listItems);
+		
+		//リスト表示
+		listView.setAdapter(adapter);
+
+		//リストアイテム押下時イベント生成
+		ListItemClick listItemClick = new ListItemClick(this);
+		
+/*		//各リストにイベントセット
+		listView.setOnItemClickListener(listItemClick);
+*/
+	}
+}
+/**
+ * リストアイテム押下時イベントクラス
+ */
+class ListItemClick implements AdapterView.OnItemClickListener{
+	Activity ac;
+	ListItemClick(final Activity ac){
+		this.ac = ac;
+	}
+
+        @Override
+	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+		ListView listView = (ListView) parent;
+		//ポジション確認
+		System.out.println(position);
+		String item = (String) listView.getItemAtPosition(position);                
+		Toast.makeText(ac, item + " clicked", Toast.LENGTH_SHORT).show();
+	}
+}
